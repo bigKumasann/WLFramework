@@ -11,11 +11,8 @@
  */
 
 /*
- *  2015/12/7 储鹏 做了一些修改
  *   1.route和CanRoute的返回全部改为id (之前全部为BOOL)
  *   2.在每个路由block里返回任意非nil对象，表示不再继续走下一个路由  (之前返回YES则不再往下走)
- 
- 
  */
 
 #import <Foundation/Foundation.h>
